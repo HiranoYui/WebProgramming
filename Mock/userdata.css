@@ -1,0 +1,7 @@
+@charset "UTF-8";
+  .p-3{
+  background:linear-gradient(-360deg, #ffdab9, #ffc0cb);
+}
+thead{
+  background:linear-gradient(-360deg, #ffdab9,#ffc0cb);
+}

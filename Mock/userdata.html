@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<link rel="stylesheet" href=userdata.css>
+<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+<title>ユーザ一覧</title>
+</head>
+<body>
+<div class="container">
+<div class="p-3 mb-2 text-white text-right">ユーザ名　さん　<a href="#" class="text-danger">ログアウト</a></div>
+<div class="mx-auto" style="width: 200px;">
+<h3 class="user">ユーザ一覧<br></h3>
+</div>
+
+
+<div class="text-right"><a href="#" class="text-primary">新規登録</a></div>
+
+
+<div class="input-group input-group-sm mb-3">
+  <div class="input-group-prepend">
+  <div class="mx-auto" style="width:250px;">
+    <span class="input-group-text" id="basic-addon1">ログインID</span>
+  </div>
+  <input type="text" class="form-control" placeholder="login_id" aria-label="login_id" aria-describedby="basic-addon1">
+</div>
+
+
+<div class="input-group input-group-sm mb-3">
+  <div class="input-group-prepend">
+    <div class="mx-auto" style="width:250px;">
+    <span class="input-group-text" id="basic-addon1">ユーザ名</span>
+  </div>
+  <input type="text" class="form-control" placeholder="Username" aria-label="Username" aria-describedby="basic-addon1">
+</div>
+
+<div class="input-group input-group-sm mb-3">
+  <div class="input-group-prepend">
+    <div class="mx-auto" style="width:250px;">
+    <span class="input-group-text" id="basic-addon1">生年月日</span>
+  </div>
+  <input type="date" class="form-control" placeholder="Username" aria-label="Username" aria-describedby="basic-addon1">～
+  <input type="date" class="form-control" placeholder="Username" aria-label="Username" aria-describedby="basic-addon1">
+</div>
+</div>
+
+<input type="submit" value="検索" style="text-align:right;"><br></p>
+
+</div>
+</div>
+
+
+
+
+<table class="table table-bordered ">
+
+  <thead>
+
+    <tr>
+
+      <th scope="col" >ログインID</th>
+      <th scope="col">ユーザ名</th>
+      <th scope="col">生年月日</th>
+      <th scope="col"></th>
+   </tr>
+
+  </thead>
+
+  <tbody>
+    <tr>
+      <th scope="row">id0001</th>
+      <td>田中太郎</td>
+      <td>1989年4月26日</td>
+      <td><button type="button" class="btn btn-outline-primary">詳細</button> <button type="button" class="btn btn-outline-success">更新</button> <button type="button" class="btn btn-outline-danger">削除</button></td>
+    </tr>
+    <tr>
+      <th scope="row">id0002</th>
+      <td>佐藤二郎</td>
+      <td>2001年11月12日</td>
+      <td><button type="button" class="btn btn-outline-primary">詳細</button> <button type="button" class="btn btn-outline-success">更新</button> <button type="button" class="btn btn-outline-danger">削除</button></td>
+    </tr>
+    <tr>
+      <th scope="row">id0003</th>
+      <td>佐川真司</td>
+      <td>2000年01月01日</td>
+      <td><button type="button" class="btn btn-outline-primary">詳細</button> <button type="button" class="btn btn-outline-success">更新</button> <button type="button" class="btn btn-outline-danger">削除</button></td>
+
+     　
+    </tr>
+  </tbody>
+</table>
+</div>
+</body>
+</html>
+
